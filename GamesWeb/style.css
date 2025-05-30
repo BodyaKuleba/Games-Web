@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+.wrap {
+  width: 100%;
+  min-height: 100vh;
+  background: #6BDBE6;
+  background: linear-gradient(270deg, rgb(107, 219, 230) 0%, rgb(106, 227, 212) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 900px;
+  min-height: 700px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(186, 237, 240, 0.7);
+  border-radius: 30px;
+  color: #3b4753;
+}
+
+.person {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #3b4753;
+}
+
+.highlight {
+  background-image: linear-gradient(rgb(240, 181, 115), rgb(245, 91, 91));
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.Ppicture {
+  background-image: url(Imgs/Picture.jpg);
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.links {
+  width: 100%;
+  height: 300px;
+  background: #ffffff;
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(0, 238, 255) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link {
+  width: 50%;
+  font-size: 20px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #333;
+  border-radius: 30px;
+  align-items: center;
+  font-weight: 600;
+  color: #3b4753;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.link i {
+  background-image: linear-gradient(rgb(107, 219, 230), rgb(253, 253, 253));
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.link p {
+  background-image: linear-gradient(rgb(107, 219, 230), rgb(253, 253, 253));
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.link:hover {
+  background-color: #555;
+  font-weight: 800;
+  height: 40px;
+  width: 60%;
+}
+
+.right {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #3b4753;
+}
+
+.text {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text:hover .line {
+  width: 50%;
+}
+
+.line {
+  transition: 0.5s;
+  width: 0;
+  height: 30px;
+  border-radius: 30px;
+  background: #ffffff;
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 80%, rgb(138, 138, 138) 100%);
+}
+
+.games {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game {
+  width: 70%;
+  height: 140px;
+  background: #ffffff;
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 80%, rgb(138, 138, 138) 100%);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 5px 5px 5px #8A8A8A;
+}
+
+.inf {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bar {
+  width: 100%;
+  height: 30px;
+  background-color: #c9c7c7;
+  border-radius: 10px;
+}
+
+.barL {
+  height: 30px;
+  background: #00EEFF;
+  background: linear-gradient(90deg, rgb(0, 238, 255) 0%, rgb(0, 238, 255) 59%, rgb(201, 199, 199) 100%);
+  border-end-start-radius: 10px;
+  border-start-start-radius: 10px;
+}
+
+.percent {
+  background-image: linear-gradient(180deg, rgb(0, 238, 255) 0%, rgb(0, 238, 255) 23%, rgb(59, 71, 83) 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+  background-size: cover;
+}
+
+#bar1 {
+  width: 93%;
+}
+
+#bar2 {
+  width: 84%;
+}
+
+#bar3 {
+  width: 72%;
+}
+
+#picture1 {
+  background-image: url(https://img.redbull.com/images/c_crop,x_626,y_0,h_890,w_668/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2020/5/20/rcdvovsb4wp45sslrite/assassins-creed-valhalla-screenshot);
+}
+
+#picture2 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCSr9dWHiKfBVRdW6GH9V2zuoJJ4-qTE9n5aXvu4tmynNZP5exSs_zH99CxKt5oWA7vY4&usqp=CAU);
+}
+
+#picture3 {
+  background-image: url(https://hobbygames.ru/image/enaza/19152451/box.jpg.jpg);
+}
+
+.adOut {
+  width: 100%;
+  height: 200px;
+  background: #00EEFF;
+  background: linear-gradient(180deg, rgb(0, 238, 255) 0%, rgb(8, 177, 189) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-end-start-radius: 30px;
+  border-end-end-radius: 30px;
+}
+
+.adIn {
+  width: 90%;
+  height: 150px;
+  background-color: rgb(40, 89, 131);
+  color: #fff;
+  font-size: 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(225deg, rgb(255, 255, 255) 0%, rgb(0, 238, 255) 100%);
+}
+.adIn img {
+  width: 100px;
+  height: 100px;
+  transform: rotateY(0);
+  animation: rotate 2s ease-in-out infinite;
+  filter: opacity(1);
+  transition: 1s;
+}
+.adIn img:hover {
+  filter: opacity(0.7);
+}
+
+.left {
+  width: 30%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.9;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes highlight {
+  0% {
+    background-image: linear-gradient(rgb(240, 181, 115), rgb(245, 91, 91));
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+@media screen and (max-width: 800px) {
+  .link {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .adIn {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .Ppicture {
+    width: 100px;
+    height: 100px;
+  }
+  .adIn img {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .link {
+    font-size: 10px;
+  }
+  .adIn {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    height: 200px;
+    flex-direction: row;
+  }
+  .links {
+    height: 200px;
+    background: #ffffff;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(0, 238, 255) 100%);
+  }
+  .adOut {
+    background: #00EEFF;
+    background: linear-gradient(90deg, rgb(0, 238, 255) 0%, rgb(8, 177, 189) 100%);
+    border-radius: 0;
+  }
+  .game {
+    width: 90%;
+  }
+  .games {
+    width: 100%;
+  }
+  .right {
+    justify-content: center;
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
